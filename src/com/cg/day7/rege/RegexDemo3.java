@@ -18,6 +18,7 @@ public class RegexDemo3 {
 		Matcher matcher = pattern.matcher(input);
 		System.out.println(matcher.matches());
 		System.out.println(matcher.lookingAt());
+		System.out.println("hello");
 //		System.out.println(matcher.find());
 	}
 }
